@@ -1,0 +1,64 @@
+      //OUT<<"|             |";
+      // int counting = 0;
+      // std::string Line;
+      // for(int x=0;x<words_L[i].size();x++)
+      // {
+      //   if (counting<(Len-4-1))
+      //   {
+      //     Line += words_L[i][x];
+      //   }
+      //   else
+      //   {
+      //     Line+='-';
+      //     OUT<<"| "<<Line<<" |"<<"\n";
+      //     counting = 0;
+      //     Line = "";
+      //   }
+      // }
+      std::cout<<"ANYTHING HERE";
+      // std::string space(Len-4-Line.size(),' ');
+      // Line+= space;
+      //OUT<<"| "<<Line<<" |"<<"\n";
+    }
+
+    else{
+    if ((4+  sentence_L+words_L[i].size())<Len)
+    {
+      words.push_back(words_L[i]);
+      sentence_L += (words_L[i].size()+1);
+      std::cout<<words_L[i]<<sentence_L<<std::endl;
+    }
+    else
+    {
+      std::cout<<"vertorSIZE words size"<<words.size()<<std::endl;
+      int Space_num = (Len - 4 - sentence_L+words.size())/(words.size()-1);
+      std::cout<<Len<<'@'<<sentence_L<<'@'<<words.size()<<'@'<<std::endl;
+      std::cout<<"Here is Space"<<Space_num<<std::endl;
+      for (int j = 0; j< words.size();j++)
+      {if (j==0)
+        { std::string Space(Len-4-(Space_num*(words.size()-1))+words.size()-sentence_L ,' ');
+          words[j]+=Space;}
+      if (j==(words.size()-1))
+      {
+        std::string Space(1,' ');
+        words[j]+= Space;
+      }
+       else{
+         std::string Space(Space_num,' ');
+         words[j]+= Space;
+       }
+      }
+
+      for (int o = 0; o< words.size();o++)
+      { Line += words[o];}
+      std::cout<<"here is the line "<<Line<<std::endl;
+      OUT<<"| "<<Line<<"|"<<"\n";
+      words.clear();
+      std::cout<<"vertorSIZE words size after "<<words.size()<<std::endl;
+      words.push_back(words_L[i]);
+      Line="";
+      sentence_L = (words_L[i].size()+1);
+      Space_num=0;
+      std::cout<<"where the erroe occur???I have no fucking idea"<<std::endl;
+      }
+    }
