@@ -1,0 +1,8 @@
+17query
+0.75
+10
+word is TCTTGTACTT
+CACTTCTCTT
+index171212
+0size is 
+409600

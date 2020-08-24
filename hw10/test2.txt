@@ -1,0 +1,44 @@
+add-job 914 704210420
+add-job 958 704310575
+add-job 1108 704486833
+add-job 1112 704546830
+add-job 1138 704643106
+add-job 1146 704671530
+print-by-urgent
+print-by-time
+remove-next-urgent
+print-by-urgent
+print-by-time
+remove-next-urgent
+print-by-urgent
+print-by-time
+remove-next-urgent
+print-by-urgent
+print-by-time
+remove-next-urgent
+print-by-urgent
+print-by-time
+remove-next-urgent
+print-by-urgent
+print-by-time
+remove-next-urgent
+print-by-urgent
+print-by-time
+add-job 2112 704546822
+add-job 3138 704655106
+add-job 914 704210420
+add-job 958 704310575
+add-job 1108 704486833
+add-job 1112 704546830
+add-job 1138 704643106
+add-job 1146 704671530
+add-job 910 704139355
+add-job 900 704142867
+add-job 930 704452374
+add-job 864 704470702
+add-job 922 704595819
+add-job 999 704650210
+remove-next-urgent
+remove-next-urgent
+remove-next-age
+print-by-time

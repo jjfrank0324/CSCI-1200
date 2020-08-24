@@ -1,0 +1,11 @@
+TemplateTest() complete!
+
+3,5
+3,5
+11
+SmallTreeCopyTest() complete!
+
+Tree is empty.
+Tree is empty.
+EmptyTreeTest() complete!
+
